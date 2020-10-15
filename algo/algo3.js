@@ -5,7 +5,7 @@
 */
 
 function sumNumbers(numArray) {
-
+  return numArray.reduce((acc, n) => acc + n);
 }
 
 
