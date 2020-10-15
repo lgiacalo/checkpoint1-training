@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Exercice intégration</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
     <h1>Exercice intégration</h1>
     <h2>Entraînement checkpoint 1</h2>
   </header>
 
+  <nav>
+    <ul>
+      <li><a href="#instructions-header">En-tête</a></li>
+      <li><a href="#instructions-layout">Mise en page générale</a></li>
+      <li><a href="#instructions-navbar">Barre de navigation</a></li>
+      <li><a href="#instructions-responsive">Responsive</a></li>
+    </ul>
+  </nav>
+
   <section id="instructions-header">
     <p>Des instructions sont données pour "embellir" chaque section.</p>
     <p>Ajoute tes CSS dans le fichier <code>style.css</code> fourni.</p>
 
     <h3>1. En-tête</h3>
-    <p>pour commencer, embellis l'en-tête ci-dessus en :<ol>
+    <p>pour commencer, embellis l'en-tête ci-dessus en :
+    <ol>
       <li>Ajoutant de l'espacement au-dessus, en-dessous</li>
       <li>Centrant son texte</li>
-      <li>Ajoutant une <a href="https://www.google.com/search?q=dark+background+texture" target="_blank">image de fond</a> (suggestions... mais prends un fond sombre)</li>
+      <li>Ajoutant une <a href="https://www.google.com/search?q=dark+background+texture" target="_blank">image de
+          fond</a> (suggestions... mais prends un fond sombre)</li>
       <li>Mettre le texte en couleur claire pour garder du contraste</li>
     </ol>
     </p>
@@ -28,7 +41,8 @@
 
   <section id="instructions-layout">
     <h3>2. Mise en page générale</h3>
-    <p>Fais en sorte que les sections (pas leur <em>contenu</em> !) soient centrées dans la page, et ne dépassent pas une certaine largeur (<code>48em</code>).</p>
+    <p>Fais en sorte que les sections (pas leur <em>contenu</em> !) soient centrées dans la page, et ne dépassent pas
+      une certaine largeur (<code>48em</code>).</p>
     <p>Supprime les marges mises par défaut par le navigateur sur toute la page.</p>
   </section>
 
@@ -38,30 +52,31 @@
     <p>Il n'y a pas de navbar !</p>
     <p>Crées-en une de toutes pièces !</p>
     <p>
-      <ol>
-        <li>Place-la juste sous le header.</li>
-        <li>Utilise une balise sémantique appropriée pour englober ce qu'elle va contenir.</li>
-        <li><em>Dans</em> cette balise, crée un <code>&lt;ul&gt;</code>, avec à l'intérieur des <code>&lt;li&gt;</code>, avec à l'intérieur des <code>&lt;a&gt;</code>.</li>
-        <li>Cible les ancres présentes dans cette page.</li>
-        <li>Supprime les "bulles" devant les items</li>
-        <li>Aligne les items</li>
-        <li>Fais en sorte que la couleur des liens change quand on les survole.</li>
-      </ol>
+    <ol>
+      <li>Place-la juste sous le header.</li>
+      <li>Utilise une balise sémantique appropriée pour englober ce qu'elle va contenir.</li>
+      <li><em>Dans</em> cette balise, crée un <code>&lt;ul&gt;</code>, avec à l'intérieur des <code>&lt;li&gt;</code>,
+        avec à l'intérieur des <code>&lt;a&gt;</code>.</li>
+      <li>Cible les ancres présentes dans cette page.</li>
+      <li>Supprime les "bulles" devant les items</li>
+      <li>Aligne les items</li>
+      <li>Fais en sorte que la couleur des liens change quand on les survole.</li>
+    </ol>
     </p>
 
   </section>
 
-  <section>
+  <section id="instructions-responsive">
     <h3>4. Responsive</h3>
 
     <p>Dans cette section se trouvent des "cards".</p>
     <ol>
       <li>Fais en sorte qu'elles s'affichent :
-      <ol>
-        <li>Sur une colonne pour un affichage de largeur inférieure à 480px.</li>
-        <li>Sur deux colonnes pour un affichage de largeur comprise entre 480px et 991px.</li>
-        <li>Sur trois colonnes pour un affichage de largeur supérieure ou égale à 992px.</li>
-      </ol>
+        <ol>
+          <li>Sur une colonne pour un affichage de largeur inférieure à 480px.</li>
+          <li>Sur deux colonnes pour un affichage de largeur comprise entre 480px et 991px.</li>
+          <li>Sur trois colonnes pour un affichage de largeur supérieure ou égale à 992px.</li>
+        </ol>
       <li>Tu dois utiliser flexbox et des media queries !</li>
       <li>Calcule les largeurs de façon à laisser un peu d'espace entre les cards horizontalement...</li>
       <li>Laisse aussi un peu d'espacement vertical...</li>
@@ -100,4 +115,5 @@
 
   </section>
 </body>
+
 </html>
